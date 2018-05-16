@@ -63,11 +63,7 @@ public class CustomersCTL implements ActionListener {
     }
     
     
-    private void metodoInutil(){
-        close();
-    }
-    
-    
+     
     private void close(){
         System.exit(0);
     }
