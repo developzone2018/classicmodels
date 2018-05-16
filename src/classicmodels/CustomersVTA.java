@@ -34,6 +34,7 @@ public class CustomersVTA extends javax.swing.JFrame {
         aceptar = new javax.swing.JButton();
         cerrar = new javax.swing.JButton();
         txtCustomerNumber = new javax.swing.JTextField();
+        modificar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,6 +43,8 @@ public class CustomersVTA extends javax.swing.JFrame {
         aceptar.setText("Aceptar");
 
         cerrar.setText("Cerrar");
+
+        modificar.setText("Modificar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -55,6 +58,8 @@ public class CustomersVTA extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(aceptar)
+                        .addGap(18, 18, 18)
+                        .addComponent(modificar)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(cerrar)))
                 .addContainerGap())
@@ -73,7 +78,8 @@ public class CustomersVTA extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 201, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(aceptar)
-                    .addComponent(cerrar))
+                    .addComponent(cerrar)
+                    .addComponent(modificar))
                 .addContainerGap())
         );
 
@@ -85,6 +91,7 @@ public class CustomersVTA extends javax.swing.JFrame {
     private javax.swing.JButton aceptar;
     private javax.swing.JButton cerrar;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton modificar;
     private javax.swing.JTextField txtCustomerNumber;
     // End of variables declaration//GEN-END:variables
 }
